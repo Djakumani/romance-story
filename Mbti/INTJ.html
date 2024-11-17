@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/mbti_pages_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;500&display=swap">
+    <title>INTJ Love Stories</title>
+
+</head>
+
+<body>
+
+    <nav class="top-menu">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <!-- Add more links as needed -->
+        </ul>
+    </nav>
+    
+    <!-- Header Section -->
+    <header class="mbti-header">
+        <video class="header-video" autoplay loop muted>
+            <source src="../Assets/Videos/Fluid_1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="header-content">
+            <h1>INTJ - The Architect</h1>
+            <p>Explore the world of love and connections for INTJ.</p>
+        </div>
+    </header>
+    
+    <!-- Personality Description Section -->
+    <section class="personality-description-section">
+        <div class="personality-container">
+            <div class="personality-image animate__animated animate__fadeInLeft">
+                <!-- Video instead of Image -->
+                <video src="../Assets/Videos/Mbti_intro_videos/INTJ.mp4" class="personality-video" autoplay loop muted playsinline>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="personality-text animate__animated animate__fadeInRight">
+                <h2>About INTJ</h2>
+                <p>INTJs are strategic masterminds who excel at long-term planning and executing complex ideas. They are fiercely independent and highly analytical, often seeking out knowledge and striving for self-improvement. In relationships, INTJs are loyal and devoted, valuing intellectual stimulation and deep, meaningful connections.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Novels Section -->
+    <section class="novels-section">
+        <h2>Novels Featuring INTJ</h2>
+        <div class="stories-list">
+            <div class="story-container">
+                <img src="../Assets/Images/Background_images/Sorry_1.png" alt="Story Coming Soon" class="story-image">
+            </div> 
+    </div>
+    </section>
+
+   <!-- One-shots Section -->
+   <section class="one-shots-section">
+    <h2>One-shots Featuring INTJ</h2>
+    <div class="stories-list">
+            <div class="story-container">
+                <img src="../Assets/Images/Background_images/Sorry_4.png" alt="Story Coming Soon" class="story-image">
+            </div> 
+    </div>
+    </section>
+
+   <!-- Harmonized Request Form Section -->
+   <section class="request-story-section">
+    <h2>Submit a Story Request</h2>
+    <p>Have a match in mind you'd love to see a story for? Let me know your ideas!</p>
+    <form id="mbti-request-form">
+        <label for="username">Your Name (optional):</label>
+        <input type="text" id="username" placeholder="Enter your name" />
+
+        <label for="pair">MBTI Pair:</label>
+        <input type="text" id="pair" placeholder="e.g., ENFP + INFJ" required />
+
+        <label for="details">Tell us more about your story idea:</label>
+        <textarea id="details" rows="4" placeholder="Add your story idea or any specific details"></textarea>
+
+        <button type="submit">Submit Request</button>
+    </form>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer-section bg-dark text-light py-4">
+        <div class="container text-center">
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank">Facebook</a> |
+                <a href="https://twitter.com" target="_blank">Twitter</a> |
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+            <p class="mt-3">&copy; 2024 MBTI Love Lab. All Rights Reserved.</p>
+            <a href="privacy.html" class="text-light">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+
+        function toggleChapters(chapterId) {
+            const chapters = document.getElementById(chapterId);
+            chapters.style.display = chapters.style.display === "none" ? "block" : "none";
+        }
+    </script>
+</body>
+
+</html>
